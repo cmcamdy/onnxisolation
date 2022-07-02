@@ -1,0 +1,6 @@
+nvidia-pyindex
+numpy
+onnx
+onnx_graphsurgeon
+onnxoptimizer
+onnxruntime

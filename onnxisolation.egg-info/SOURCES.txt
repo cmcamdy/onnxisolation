@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+onnxisolation/__init__.py
+onnxisolation/export.py
+onnxisolation/get_shape.py
+onnxisolation/isolate.py
+onnxisolation/reshape.py
+onnxisolation.egg-info/PKG-INFO
+onnxisolation.egg-info/SOURCES.txt
+onnxisolation.egg-info/dependency_links.txt
+onnxisolation.egg-info/requires.txt
+onnxisolation.egg-info/top_level.txt
