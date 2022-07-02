@@ -1,8 +1,8 @@
 
 
-## ONNX Isolation 
+# OnnxIsolation
 
-[toc]
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 - 我们使用pytorch导出onnx模型的过程中发现onnx文件中的中间节点并没有诸如dtype/shape等属性。
 - 如下图可视化结构所示，右侧红框在正常情况下应当有小加号，实际上用torch.onnx.export导出就没有（版本为1.10.0）
@@ -13,14 +13,25 @@
 
 
 
-#### Installation
+## Installation
 
+- pip安装
 ```
 pip install nvidia-pyindex
 pip install onnxisolation
 ```
 
-#### Example
+- 源码安装 	
+
+```
+cd onnxisolation
+python setup.py install
+```
+
+
+
+
+## Example
 
 - 1.0.0的想法很原始：找出shape然后再做isolate，找出shape的方式是设置为onnxruntime的输出节点
 
@@ -48,3 +59,4 @@ pip install onnxisolation
   ```
 
   
+
